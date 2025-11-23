@@ -9,6 +9,10 @@ punteggio_fine double precision not null,
 finestra_temporale int not null 
 );
 
+create table gay(
+	nome 
+)
+
 CREATE TABLE psicologo(
 cod_fiscale char(16) primary key,
 nome varchar(64) not null,
